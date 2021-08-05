@@ -1,0 +1,9 @@
+.Backdrop{
+    width:100%;/*To make backdrop cover whole screen*/
+    height:100%;/*To make backdrop cover whole screen*/
+    position:fixed;
+    z-index:100;/*Can decide which element will sit at the top of the page, the more the z-index..the higher the element will sit*/
+    left:0;
+    top:0;
+    background-color: rgba(0,0,0,0.5);
+}
